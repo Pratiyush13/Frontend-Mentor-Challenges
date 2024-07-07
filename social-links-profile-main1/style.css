@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('Inter-VariableFont_slnt\,wght.ttf') format('woff2'),
+         url('Inter-VariableFont_slnt\,wght.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Inter-SemiBold";
+    background-color: hsl(0, 0%, 8%);
+}
+#outer {
+    height:100vh;
+    width:100vw;
+    border-radius: 6px;
+    background-color:hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#inner {
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+/* p {
+    background-color: aquamarine;
+     color:white;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+h6 {
+    color: white;
+    font-size: 9px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
+.ids {
+    align-content: center;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    width:240px;
+    border-radius: 7px;
+    height:30px;
+    font-size: 11px;
+    font-weight:600;
+    /* font-family: "Inter"; */
+    
+    
+    
+}
+
+ #circle {
+    height:70px;
+    border-radius: 50%;
+    width: 70px;
+    background-color: aqua;
+    margin-top: 10px;
+    background-image: url("avatar-jessica.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} 
+
+ h1 {
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 450;
+    margin-bottom: 6px;
+    /* font-family: "Inter"; */
+} 
+
+small {
+    color:hsl(75, 94%, 57%);
+    font-size: 12px;
+    font-weight: 600;
+    /* font-family: "Inter"; */
+    
+}   
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#uk {
+    color:white;
+    font-family: "Inter";
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.ids:hover {
+    background-color:  hsl(75, 94%, 57%);
+    color: black;
+}
+a:hover {
+    color:black;
+}

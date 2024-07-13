@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "RedHatDisplay-Regular";
+    src: url("fonts/RedHatDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "RedHatDisplay-Medium";
+    src: url("fonts/RedHatDisplay-VariableFont_wght.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "RedHatDisplay-Medium";
+    flex-wrap: wrap;
+}
+
+
+.card{
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    text-align: center;
+    width: 350px;   
+    background-color: white;
+}
+
+#topimg{
+    width: 350px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+h2{
+    margin-top: 1.5rem;
+    font-weight: 900;
+}
+
+.content{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: hsl(224, 23%, 55%);
+}
+
+p{
+    line-height: 100px;
+    font-weight: 600;
+    margin-top: 0.9rem;
+    line-height: 25px;
+}
+
+.planselector{
+    font-size: small;
+    margin-top: 1rem;  
+    height: 65px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.5rem;
+    /* width: 350px; */
+}
+
+ul{
+    transform: translateX(-12px);
+    list-style-type: none;
+}
+
+#one{
+    color: black;
+    font-weight: 900;
+}
+
+#two{
+    margin-top:3px;
+    color:hsl(224, 23%, 55%) ;
+    font-weight:800;
+}
+
+.change{
+    font-weight: 800;
+    color: hsl(245, 75%, 52%);
+    transform: translateX(10px);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.payment{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:  hsl(245, 75%, 52%);
+    margin-top: 1.5rem;
+    height: 40px;
+    align-content: center;
+    border-radius: 0.5rem;
+    font-size: small;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.247);
+}
+
+.cancel{
+    font-size: small;
+    font-weight: 800;
+    margin-top: 1.5rem;
+    color: hsl(224, 23%, 55%);
+    padding-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.payment:active{
+    background-color: hsl(245, 75%, 52%,0.6);
+}
+
+.change:active{
+    font-weight: bolder;
+    text-decoration: none;
+    color: hsl(245, 75%, 52%,0.6);
+}
+
+.cancel:active{
+    color: black;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0px;
+    font-weight: bolder;
+}
+
+.attribution a{
+    text-decoration: none;
+}
